@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5686c95d416334bbf1edd5bd92293a, type: 3}
+  m_Name: Treasure
+  m_EditorClassIdentifier: 
+  itemName: Treasure
+  category: 2
+  rarity: 0
+  price: 1
+  weight: 0
+  isStackable: 1
+  maxStackSize: 99
+  icon: {fileID: 21300000, guid: 60a668cbe3bd60b4caf22d19acf91e88, type: 3}
+  model: {fileID: 919132149155446097, guid: 8284c9cdfc30a7146b51f799c4cfd8a2, type: 3}
+  material: {fileID: 0}
+  description: Test Item
+  equipCatergory: 0
+  bonusAttack: 6603
+  bonusDefend: 6716
+  bonusSpeed: 5735
+  bonusIntelligence: 4981

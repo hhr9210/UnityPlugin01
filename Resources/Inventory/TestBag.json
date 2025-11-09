@@ -1,0 +1,10 @@
+{
+    "inventoryName": "TestBag",
+    "items": [
+        {
+            "itemName": "hppotion",
+            "itemType": "Consumable",
+            "quantity": 30
+        }
+    ]
+}

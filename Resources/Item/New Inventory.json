@@ -1,0 +1,15 @@
+{
+    "inventoryName": "New Inventory",
+    "items": [
+        {
+            "itemName": "hppotion",
+            "itemType": "Equip",
+            "quantity": 30
+        },
+        {
+            "itemName": "Treasure",
+            "itemType": "Equip",
+            "quantity": 1
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+﻿{
+    "DialogueName": "NewDialogue433",
+    "Nodes": [
+        {
+            "ID": "8e8e92af-1048-42a0-969a-7a1e2795789a",
+            "Speaker": "New Speaker",
+            "DialogueText": "Enter dialogue text here.",
+            "Position": {
+                "x": -71.19999694824219,
+                "y": 144.0
+            },
+            "Choices": [
+                {
+                    "ChoiceText": "choice1",
+                    "TargetNodeID": "554bfc86-82c8-4bce-a017-feb93b270409"
+                },
+                {
+                    "ChoiceText": "choice2",
+                    "TargetNodeID": "554bfc86-82c8-4bce-a017-feb93b270409"
+                },
+                {
+                    "ChoiceText": "choice3",
+                    "TargetNodeID": "5659530a-bd3e-421f-abed-2985feb20a8a"
+                },
+                {
+                    "ChoiceText": "choice4",
+                    "TargetNodeID": "5659530a-bd3e-421f-abed-2985feb20a8a"
+                }
+            ]
+        },
+        {
+            "ID": "554bfc86-82c8-4bce-a017-feb93b270409",
+            "Speaker": "New Speaker",
+            "DialogueText": "Answer Choice12",
+            "Position": {
+                "x": 342.4000244140625,
+                "y": 77.60000610351563
+            },
+            "Choices": []
+        },
+        {
+            "ID": "5659530a-bd3e-421f-abed-2985feb20a8a",
+            "Speaker": "New Speaker",
+            "DialogueText": "Answer Choice34",
+            "Position": {
+                "x": 323.20001220703127,
+                "y": 396.0
+            },
+            "Choices": []
+        }
+    ]
+}

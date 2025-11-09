@@ -1,0 +1,53 @@
+﻿{
+    "DialogueName": "NewDialogue684",
+    "Nodes": [
+        {
+            "ID": "19cc96c7-fc58-47ae-9b69-2c8a868e4c45",
+            "Speaker": "New Speaker",
+            "DialogueText": "Enter dialogue text here.",
+            "Position": {
+                "x": 593.1700439453125,
+                "y": 232.76004028320313
+            },
+            "Choices": [
+                {
+                    "ChoiceText": "New Choice (Auto)",
+                    "TargetNodeID": "ca1c0d30-53c4-49e7-9a37-88f98b582755"
+                },
+                {
+                    "ChoiceText": "New Choice",
+                    "TargetNodeID": ""
+                }
+            ]
+        },
+        {
+            "ID": "ca1c0d30-53c4-49e7-9a37-88f98b582755",
+            "Speaker": "New Speaker",
+            "DialogueText": "Enter dialogue text here.",
+            "Position": {
+                "x": 593.1700439453125,
+                "y": 232.76004028320313
+            },
+            "Choices": [
+                {
+                    "ChoiceText": "New Choice",
+                    "TargetNodeID": ""
+                },
+                {
+                    "ChoiceText": "New Choice (Auto)",
+                    "TargetNodeID": "931cc197-4849-4888-b2db-9ce7e1083756"
+                }
+            ]
+        },
+        {
+            "ID": "931cc197-4849-4888-b2db-9ce7e1083756",
+            "Speaker": "New Speaker",
+            "DialogueText": "Enter dialogue text here.",
+            "Position": {
+                "x": 882.4000244140625,
+                "y": 212.0
+            },
+            "Choices": []
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+/* DialogueEditorWindow 根元素
+#unity-canvas {
+    background-color: #2a2a2a; /* 深色背景 */
+}
+
+/* GraphView 背景网格 */
+.unity-grid-background {
+    --grid-background-color: #222222;
+    --grid-line-color: #383838;
+    --grid-thick-line-color: #444444;
+}
+
+/* 节点的基础样式 */
+DialogueGraphNode {
+    background-color: #3b3b3b; /* 节点背景色 */
+    border-color: #555555;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #cccccc; /* 文本颜色 */
+}
+
+/* 节点标题栏 */
+DialogueGraphNode .unity-label {
+    color: #e0e0e0;
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+/* 节点输入/输出端口 */
+DialogueGraphNode .port {
+    background-color: #555555;
+    border-color: #777777;
+    width: 15px;
+    height: 15px;
+}
+
+/* 端口名称 */
+DialogueGraphNode .port-label {
+    color: #bbbbbb;
+    font-size: 12px;
+}
+
+/* 输入端口特定的样式 */
+DialogueGraphNode .port--input {
+    background-color: #4CAF50; /* 绿色 */
+}
+
+/* 输出端口特定的样式 */
+DialogueGraphNode .port--output {
+    background-color: #2196F3; /* 蓝色 */
+}
+
+/* 文本输入框 */
+TextField {
+    background-color: #4a4a4a;
+    border-color: #666666;
+    color: #eeeeee;
+}
+TextField .unity-base-field__label {
+    color: #cccccc;
+}
+
+/* 按钮 */
+Button {
+    background-color: #555555;
+    border-color: #777777;
+    color: #eeeeee;
+    -unity-font-style: bold;
+    border-radius: 3px;
+}
+Button:hover {
+    background-color: #666666;
+}
+Button:active {
+    background-color: #444444;
+}
+
+/* 工具栏按钮 */
+.toolbar-button {
+    background-color: #444444;
+    border-color: #555555;
+    color: #cccccc;
+    -unity-font-style: normal;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+    /* === 修正: 增加按钮高度 === */
+    width: 200px;
+    height: 60px; /* 您可以调整这个值 */
+    padding-top: 20px; /* 增加顶部填充 */
+    padding-bottom: 20px; /* 增加底部填充 */
+    /* ========================= */
+}
+.toolbar-button:hover {
+    background-color: #555555;
+}
+.toolbar-button:active {
+    background-color: #333333;
+}
+
+/* 连线 */
+.unity-edge {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-background-image-tint-color: #888888; /* 连线颜色 */
+    /* 默认连线样式通常已经足够好，不需要太多修改 */
+} */

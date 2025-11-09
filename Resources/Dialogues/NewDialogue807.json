@@ -1,0 +1,30 @@
+﻿{
+    "DialogueName": "NewDialogue807",
+    "Nodes": [
+        {
+            "ID": "d21d9230-35da-4a43-b1d0-f74fc99c959a",
+            "Speaker": "New Speaker",
+            "DialogueText": "Enter dialogue text here.",
+            "Position": {
+                "x": 204.82159423828126,
+                "y": 405.38702392578127
+            },
+            "Choices": []
+        },
+        {
+            "ID": "c08e1e5d-8e8f-45c9-8c73-5b6b52c02242",
+            "Speaker": "New Speaker",
+            "DialogueText": "Enter dialogue text here.",
+            "Position": {
+                "x": -331.4384460449219,
+                "y": 420.28314208984377
+            },
+            "Choices": [
+                {
+                    "ChoiceText": "New Choice (Auto)",
+                    "TargetNodeID": "d21d9230-35da-4a43-b1d0-f74fc99c959a"
+                }
+            ]
+        }
+    ]
+}

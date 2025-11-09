@@ -1,0 +1,20 @@
+{
+    "inventoryName": "TestBag",
+    "items": [
+        {
+            "itemName": "hppotion",
+            "itemType": "Consumable",
+            "quantity": 50
+        },
+        {
+            "itemName": "Sword",
+            "itemType": "Equip",
+            "quantity": 2
+        },
+        {
+            "itemName": "Treasure",
+            "itemType": "Material",
+            "quantity": 1
+        }
+    ]
+}
